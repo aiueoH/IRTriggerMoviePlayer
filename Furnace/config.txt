@@ -1,0 +1,77 @@
+﻿#裁切點 左上 x
+CUT_LEFT_UP_X=60
+
+#裁切點 左上 y
+CUT_LEFT_UP_Y=65
+
+#裁切點 右下 x
+CUT_RIGHT_DOWN_X=580
+
+#裁切點 右下 y
+CUT_RIGHT_DOWN_Y=420
+
+#放大倍數
+SCALE=1.3
+
+#旋轉角度(0或180)
+ROTATE=0
+
+#前製動畫每張frame間隔時間(毫秒)
+PRE_FRAME_TIME=25
+
+#燃燒動畫每張frame間隔時間(毫秒)
+BURN_FRAME_TIME=1
+
+#感應到紙張 ~ 開始播動畫 間隔的時間(毫秒)
+BEFORE_PLAY_TIME=0
+
+#前製動畫總張數
+#舉例 mask_00000 ~ mask_00400 共 401 張
+PREFRAME_COUNT=100
+
+#燃燒動畫總張數
+BURNFRAME_COUNT=401
+
+#是否啟用遮罩效果(true/false)
+USE_MASK=true
+
+#紅外線遮斷訊號閥值
+BLOCKING_COUNT=25
+
+#開啟拍照存檔功能
+SAVE_PICTURE=true
+
+#左下偵測區塊 x, y, width, height
+LBROI_X=165
+LBROI_Y=355
+LBROI_W=27
+LBROI_H=67
+
+#左上偵測區塊 x, y, width, height
+LTROI_X=165
+LTROI_Y=55
+LTROI_W=27
+LTROI_H=67
+
+#右下偵測區塊 x, y, width, height
+RBROI_X=445
+RBROI_Y=350
+RBROI_W=27
+RBROI_H=67
+
+#右上偵測區塊 x, y, width, height
+RTROI_X=445
+RTROI_Y=60
+RTROI_W=27
+RTROI_H=67
+
+#偵測紅點HUE範圍A
+HUEMINA=0
+HUEMAXA=10
+
+#偵測紅點HUE範圍B
+HUEMINB=160
+HUEMAXB=180
+
+#偵測紅點侵蝕膨脹係數
+ED=3
